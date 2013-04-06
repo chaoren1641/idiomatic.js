@@ -1,6 +1,6 @@
 # Principe d'écriture d'un code Javascript cohérent et idiomatique
 
-## Il s'agit d'un document vivant, les nouvelles idées pour améliorer le code autour de nous sont toujours les bienvenues. Pour Contribuer: "fork", "clone", "branch", "commit", "push", "pull request".
+## Il s'agit d'un document vivant, les nouvelles idées pour améliorer le code autour de nous sont toujours les bienvenues. Pour contribuer : "fork", "clone", "branch", "commit", "push", "pull request".
 
 * Rick Waldron [@rwaldron](http://twitter.com/rwaldron), [github](https://github.com/rwldrn)
 * Mathias Bynens [@mathias](http://twitter.com/mathias), [github](https://github.com/mathiasbynens)
@@ -13,10 +13,21 @@
 * Leo Balter [@leobalter](http://twitter.com/leobalter), [github](https://github.com/leobalter)
 * Breno Oliveira [@garu_rj](http://twitter.com/garu_rj), [github](https://github.com/garu)
 * Leo Beto Souza [@leobetosouza](http://twitter.com/leobetosouza), [github](https://github.com/leobetosouza)
+* Ryuichi Okumura [@okuryu](http://twitter.com/okuryu), [github](https://github.com/okuryu)
+* Pascal Precht [@PascalPrecht](http://twitter.com/PascalPrecht), [github](https://github.com/pascalprecht)
+* EngForDev [engfordev](http://www.opentutorials.org/course/167/1363) - Hwan Min Hong / MinTaek Kwon [@leoinsight](http://twitter.com/leoinsight) / Tw Shim [@marocchino](http://twitter.com/marocchino), [github](https://github.com/marocchino) / Nassol Kim [@nassol99](http://twitter.com/nassol99), [github](https://github.com/nassol) / Juntai Park [@rkJun](http://twitter.com/rkJun), [github](https://github.com/rkJun) / Minkyu Shim / Gangmin Won / Justin Yoo [@justinchronicle](http://twitter.com/justinchronicle) / Daeyup Lee
+* Marco Trulla [@marcotrulla](http://twitter.com/marcotrulla), [github](https://github.com/Ragnarokkr)
+* Alex Navasardyan [@alexnavasardyan](http://twitter.com/alexnavasardyan), [github](https://github.com/2k00l)
+* Mihai Paun [@mihaipaun](http://twitter.com/mihaipaun), [github](https://github.com/mihaipaun)
+* Evgeny Mandrikov [@\_godin\_](http://twitter.com/_godin_), [github](https://github.com/Godin)
+* Sofish Lin [@sofish](http://twitter.com/sofish), [github](https://github.com/sofish)
+* Дејан Димић [@dejan_dimic](http://twitter.com/dejan_dimic), [github](https://github.com/rubystream)
+* Miloš Gavrilović [@gavrisimo](http://twitter.com/gavrisimo), [github](https://github.com/gavrisimo)
+
 
 ## Tout code, peu importe les bases sur lequels il est établi, devrait ressembler au code tapé par une seule personne, peu importe le nombre de personnes ayant contribué.
 
-### La liste suivante donne un aperçu des pratiques que j'utilise dans tout le code dont j'en suis l'auteur. Les contributions aux projets dont je suis l'auteur doivent suivre ces lignes directrices.
+### La liste suivante donne un aperçu des pratiques que j'utilise dans tout le code dont je suis l'auteur. Les contributions aux projets dont je suis l'auteur doivent suivre ces lignes directrices.
 
 ### Je n'ai pas l'intention d'imposer mes préférences de style sur le code d'autres personnes. Si elles ont un style commun, dans ce cas, il est important de respecter le style de chacun.
 
@@ -24,14 +35,26 @@
 
 ## Traductions
 
-* [Anglais](https://github.com/rwldrn/idiomatic.js)
-* [Espagnol](https://github.com/MatiasArriola/idiomatic.js/)
-* [Portugais - Brésilien](https://github.com/leobalter/idiomatic.js/)
+* [ORIGINAL](https://github.com/rwldrn/idiomatic.js/)
+* [German](https://github.com/rwldrn/idiomatic.js/tree/master/translations/de_DE)
+* [French](https://github.com/rwldrn/idiomatic.js/tree/master/translations/fr_FR)
+* [Spanish](https://github.com/rwldrn/idiomatic.js/tree/master/translations/es_ES)
+* [Portuguese - Brazil](https://github.com/rwldrn/idiomatic.js/tree/master/translations/pt_BR)
+* [Korean](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ko_KR)
+* [Japanese](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ja_JP)
+* [Italian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/it_IT)
+* [Russian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ru_RU)
+* [Romanian](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ro_RO)
+* [简体中文](https://github.com/rwldrn/idiomatic.js/tree/master/translations/zh_CN)
+* [Serbian - cyrilic alphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/ср_СР)
+* [Serbian - latin aplphabet](https://github.com/rwldrn/idiomatic.js/tree/master/translations/sr_SR)
 
 ## Important, aspect non-idiomatique :
 
 ### Qualité du Code : indispensables, ressources et références
 
+ * [JavaScript Plugin](http://docs.codehaus.org/display/SONAR/JavaScript+Plugin) for [Sonar](http://www.sonarsource.org/)
+ * [Plato](https://github.com/jsoverson/plato)
  * [jsPerf](http://jsperf.com/)
  * [jsFiddle](http://jsfiddle.net/)
  * [jsbin](http://jsbin.com/)
@@ -45,7 +68,7 @@
 
 [http://es5.github.com/](http://es5.github.com/)
 
-Ce qui suit doit être considéré comme 1) __incomplet__, et comme une 2) __LECTURE OBLIGATOIRE__. Je n'ai pas toujours d'accord avec le style écrit par les auteurs ci-dessous, mais une chose est certaine : ils sont conformes. En outre, ce sont les autorités sur le language.
+Ce qui suit doit être considéré comme 1) __incomplet__, et comme une 2) __LECTURE OBLIGATOIRE__. Je ne suis pas toujours d'accord avec le style écrit par les auteurs ci-dessous, mais une chose est certaine : ils sont conformes. En outre, ce sont des autorités sur le language.
 
  * [Eloquent JavaScript](http://eloquentjavascript.net/)
  * [JavaScript, JavaScript](http://javascriptweblog.wordpress.com/)
@@ -55,12 +78,12 @@ Ce qui suit doit être considéré comme 1) __incomplet__, et comme une 2) __LEC
 
 ### Processus de "build" et de déploiement
 
-Les projets doivent toujours tenter d'inclure des moyens de vérifier le code implémenté avec Lint, testé et minifier les fichiers afin d'avoir de meilleurs performances en production.
-Pour cette tâche, [Grunt](https://github.com/cowboy/grunt) maintenu par Ben Alman rassemble les bonnes pratiques, que nous soutenons dans notre project.
+Les projets doivent toujours tenter d'inclure des moyens de vérifier le code implémenté avec Lint, tester et minifier les fichiers afin d'avoir de meilleurs performances en production.
+Pour cette tâche, [Grunt](https://github.com/cowboy/grunt) maintenu par Ben Alman rassemble les bonnes pratiques, que nous soutenons dans notre projet.
 
 ### Testabilité
 
-Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implementation et de périmètre fonctionnelle. Utilisez des démos de cas d'utilisation NE SONT PAS des "tests". Ce qui suit est une liste de bibliothèque de test, aucune d'entre elles n'est approuvée plus que l'autre.
+Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implementation et de périmètre fonctionnel. Utiliser des démos de cas d'utilisation NE SONT PAS des "tests". Ce qui suit est une liste de bibliothèques de test, aucune d'entre elles n'est approuvée plus que l'autre.
 
  * [QUnit](http://github.com/jquery/qunit)
  * [Jasmine](https://github.com/pivotal/jasmine)
@@ -82,18 +105,30 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
  * [Commentaires](#comments)
  * [Un code, un language](#language)
 
+
+
+------------------------------------------------
+
+
+## Préface
+
+Les sections suivantes décrivent un guide de style _raisonable_ pour tout développement moderne en JavaScript et ne sont pas censées être normatives. Le plus important à appliquer est la **loi de cohérence dans le style de code**. Le style que vous avez choisi pour votre projet, quel qu'il soit, doit être considéré comme la loi. Référer à ce document pour afficher l'engagement de votre projet à utiliser un style de code cohérent, lisible et maintenable.
+
+
+
+
 ## Manifeste : style idiomatique
 
 1. <a name="whitespace">Les Espaces</a>
 
-	* Ne jamais mélanger les espaces et les tabulations.
-	* Avant d'écriture le moindre code en début de projet, vous devez choisir entre l'indentation par espace ou par tabulation. C'est une règle.
-	 	* Pour la lisibilité, paramétrer votre éditeur avec une indentation de 4 caractères.
-	* Si votre éditeur le supporte, travaillez toujours avec le mode "afficher les caractères invisibles" actif. Les avantages de cette pratique sont:
-		* Améliore la cohérence du code
-		* Elimine les espaces de fin de ligne
-		* Elimine les espaces utilisés pour des lignes blanches
-		* Améliorer la lisibilité de vos "commit" et des "diff"
+  - Ne jamais mélanger les espaces et les tabulations.
+  - Avant d'écrire le moindre code en début de projet, vous devez choisir entre l'indentation par espace ou par tabulation. C'est une règle.
+      - Pour la lisibilité, paramétrer votre éditeur avec une indentation de deux caractères &mdash; ce qui veut dire deux espaces ou une tabulation représentant deux espaces.
+  - Si votre éditeur le supporte, travaillez toujours avec le mode "afficher les caractères invisibles" actif. Les avantages de cette pratique sont:
+      - Améliore la cohérence du code
+      - Elimine les espaces de fin de ligne
+      - Elimine les espaces utilisés pour des lignes blanches
+      - Améliorer la lisibilité de vos "commit" et des "diff"
 
 2. <a name="spacing">Une Syntaxe Précise</a>
 
@@ -173,7 +208,7 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 		object = {};
 
 	// 2.B.1.2
-	// Utilisez une unique déclaration `var` par portée de (fonction) améliore la
+	// Utiliser une unique déclaration `var` par portée de (fonction) améliore la
 	// lisibilité et permets de garder une déclaration séparée du corps de la fonction
 	// (en adéquation avec la portée des variables JS)
 
@@ -182,7 +217,7 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 	var bar = "";
 	var qux;
 
-	// Correcte
+	// Correct
 	var foo = "",
 		bar = "",
 		quux;
@@ -311,7 +346,7 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 	D. La cohérence gagne toujours
 
 	Dans les sections 2.A-2.C, les règles d'espacement sont énoncées sous forme de recommandation avec un objectif simple et plus abouti : la cohérence.
-	Il est important de noter que les préférences de formatage, tel que les "espaces situés à l'intérieur de déclaration", doivent être considérer comme optionnels. Un _unique style_ doit exister pour tous les sources d'un projet.
+	Il est important de noter que les préférences de formatage, tel que les "espaces situés à l'intérieur de déclaration", doivent être considérés comme optionnels. Un _unique style_ doit exister pour tous les sources d'un projet.
 
 	```javascript
 
@@ -339,7 +374,7 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 
 	E. Fin de ligne et lignes vides
 
-	Les espaces peuvent anéantir la lisibilité de vos "diffs". Considérez que la suppression des espaces et des espaces en fin de ligne doit être effectuer __automatiquement__ avant chaque "commit".
+	Les espaces peuvent anéantir la lisibilité de vos "diffs". Considérez que la suppression des espaces et des espaces en fin de ligne doit être effectuée __automatiquement__ avant chaque "commit".
 
 3. <a name="type">Vérification de Type (Courtesy jQuery Core Style Guidelines)</a>
 
@@ -616,10 +651,10 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 	// Plutôt que d'utiliser l'expression suivante :
 	if ( foo === null || foo === undefined ) ...
 
-	// ...bénéficier de la coercion de type ==, comme suit:
+	// ...bénéficiez de la coercion de type ==, comme suit:
 	if ( foo == null ) ...
 
-	// Souvenez vous, utilisez == vérifira une égalité avec `null` et `null` & `undefined`
+	// Souvenez vous, utiliser == vérifiera une égalité avec `null` et `null` & `undefined`
 	// mais pas `false`, "" ou 0
 	null == undefined
 
@@ -631,7 +666,7 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 	// 4.2.1
 	// Cohercion de Type coercion et remarques
 
-	Preferez `===` à la place de `==` (à moins que le cas de test require la perte d'évaluation de type)
+	Preferez `===` à la place de `==` (à moins que le cas de test ne requiert la perte d'évaluation de type)
 
 	=== n'effectue pas de cohercion de type, ce qui signifie que:
 
@@ -669,28 +704,28 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 			var data = "secret";
 
 			return {
-				// This is some boolean property
+				//Ceci est une proprété booléenne (boolean)
 				bool: true,
-				// Some string value
+				//  Une chaîne de caractère (string)
 				string: "a string",
-				// An array property
+				// Une propriété tableau (array)
 				array: [ 1, 2, 3, 4 ],
-				// An object property
+				// Une propriété objet (object)
 				object: {
 					lang: "en-Us"
 				},
 				getData: function() {
-					// get the current value of `data`
+					// obtenir la valeur courante de `data`
 					return data;
 				},
 				setData: function( value ) {
-					// set the value of `data` and return it
+					// affecter une valeur `value` à `data` et le renvoyer
 					return ( data = value );
 				}
 			};
 		})();
 
-		// D'autres choses peuvent être implémenter ici
+		// D'autres choses peuvent être implémentées ici
 
 		// Exposition de notre module via l'objet global
 		global.Module = Module;
@@ -753,9 +788,9 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 	for(i=0;i<els.length;i++){a.push(els[i]);}
 	```
 
-	Vous avez peut être probablement écrit le code comme ci-dessus - nous espérons que cette mauvaise pratique se terminera aujourd'hui.
+	Vous avez peut être déjà écrit un code comme ci-dessus - nous espérons que cette mauvaise pratique se terminera aujourd'hui.
 
-	Ci-dessous la même logique, avec plus de clareté et surtout plus de lisibilité fonctionnelle:
+	Ci-dessous la même logique, avec plus de clarté et surtout plus de lisibilité fonctionnelle:
 
 	```javascript
 
@@ -829,7 +864,7 @@ Les projets _doivent_ inclure certaines formes de test unitaire : tests d'implem
 
 	A. L'utilisation des `switch` doit être évitée, les méthodes modernes de tracking devraient 'blacklister' l'utilisation des fonctions avec `switch`.
 
-	Il semble y avoir des améliorations radicales à l'exécution des déclarations de `switch` dans les dernières version de Firefox et Chrome.    
+	Il semble y avoir des améliorations radicales à l'exécution des déclarations de `switch` dans les dernières version de Firefox et Chrome.
 	http://jsperf.com/switch-vs-object-literal-vs-module
 
 	Des améliorations notables sont également visibles ici:
